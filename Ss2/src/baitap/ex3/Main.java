@@ -1,0 +1,9 @@
+package baitap.ex3;
+
+public class Main {
+    public static void main(String[] args) {
+        User u=new User("13579");
+        System.out.println(u.isAuthenticated());
+        System.out.println(Authenticatable.encrypt("13579"));
+    }
+}
